@@ -1,0 +1,3 @@
+# Database Manager for Global City Streaming
+
+This repository is a submodule of the main [Global City Streaming](https://github.com/mrjex/Global-City-Streaming) project.Its primary purpose is to manage and clean up the database used by Global City Streaming, specifically by periodically removing old records from the `weather` table to ensure the database remains within a manageable size, since the [Kafka Producer Container](https://github.com/mrjex/Kafka-Producer-Global-City-Streaming) produces data which is inserted into the [PostgreSQL Container](https://github.com/mrjex/Postgres-Global-City-Streaming) in real-time.
